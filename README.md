@@ -1,32 +1,16 @@
-Mas ejemplos de cosigo con bash
-https://devhints.io/bash
+# Ejemplos de uso de código en bash
+Este repositorio es un glosario de metodos para saber como usar ciertos procesos en bash, y estan separados segun sea el caso, sin un ejemplo demaciado complejo.
 
-Nota, para ejecutarse adecuadamente, toca agregar 
+### Nota
+Para ejecutarse adecuadamente hay que ejecutar el siguiente comando:
+```bash
 chmod -x [archivo]
+```
 
-Ofuscar tu codigo en bash
-https://blog.desdelinux.net/como-ofuscar-u-ocultar-codigo-de-nuestros-scripts-bash/
+---------
 
-
-
-Glosario
-
-Diferencia entre [  ] y [[  ]]
-Type	viejo [ comando ]	nuevo [[ comando ]]	Example
-Cadena	>	>	[[ a > b ]]
-Cadena	<	<	[[ a < b ]]
-Cadena	!=	!=	[[ a != b ]]
-Cadena	=	= or ==	[[ a = b ]]
-Numero	-ge	-ge	[[ a -ge b ]]
-Numero	-le	-le	[[ a -le b ]]
-Numero	-lt	-lt	[[ a -lt b ]]
-Numero	-gt	-gt	[[ a -gt b ]]
-Concatenar	-a	&&	[[ -n $var && -f $var ]]
-Concatenar	-o	`	
-Agrupar	(...)	(...)	`[[ $var = img* && ($var = *.png
-Patrones	-	= or ==	[[ $name = a* ]]
-Patrones	-	=~	[[ $(date) =~ ^Fri\ ...\ 13 ]]
-
-ejemplos:
-
-if [ "$answer" = y -o "$answer" = yes ] if [[ $answer =~ ^y(es)?$ ]] if [[ $answer = y* ]]
+### Recursos
+- En esta pagina se encuentran mas ejemplos con bash
+https://devhints.io/bash
+- También es posible [ofuscar](https://www.google.com/search?q=ofuscar+) el codigo hecho en bash, por si es necesario maneter procesos privados como dicta el siguiente blog:
+[Blog desde Linux: Como ofuscar codigo de nuestro script bash](https://blog.desdelinux.net/como-ofuscar-u-ocultar-codigo-de-nuestros-scripts-bash/)
