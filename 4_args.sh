@@ -1,5 +1,5 @@
 # ! /bin/bash
-#Programa para ejemplificar el paso de argumentos
+# Programa para ejemplificar el paso de argumentos
 
 nombreCurso=$1
 horarioCurso=$2

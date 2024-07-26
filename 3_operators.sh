@@ -1,5 +1,5 @@
 # !/bin/bash
-#Programa para revisar los tipos de operadores
+# Programa para revisar los tipos de operadores
 # Author: Luis Antonio Preza - anibulusnn@gmail.com
 
 echo "Operadores aritmeticos"
